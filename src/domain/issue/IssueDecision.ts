@@ -1,4 +1,4 @@
-export type PullRequestDecision =
+export type IssueDecision =
   | {
       action: "ignore";
       reason?: string;
